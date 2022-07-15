@@ -95,6 +95,12 @@ footer {
     text-decoration: underline;
 }
 
+.tools-img {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
+
 #java-pic {
     width: 100px;
 }
@@ -118,8 +124,3 @@ footer {
     font-family: 'Arima';
 }
 
-.tools-img {
-    width: 70px;
-    height: 70px;
-    padding: 20px;
-}
