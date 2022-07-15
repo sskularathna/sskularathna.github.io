@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/Pacifico-Regular.woff2') format('woff2'),
+        url('./fonts/Pacifico-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Grand Hotel';
+    src: url('./fonts/GrandHotel-Regular.woff2') format('woff2'),
+        url('./fonts/GrandHotel-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arima';
+    src: url('./fonts/Arima-Regular.woff2') format('woff2'),
+        url('./fonts/Arima-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.content {
+    text-align: center;
+}
+
+#profilePic {
+    width: 400px;
+    height: 350px;
+}
+
+
+.content li {
+    list-style: none;
+    display: inline;
+}
+
+.content li a {
+    text-decoration: none;
+}
+
+.contact-img {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
+
+#email-pic {
+    height: 80px;
+}
+
+h1 {
+    font-family: 'Grand Hotel';
+    font-size: 64px;
+}
+
+h2 {
+    font-family: 'Arima';
+    font-size: 32px;
+}
+
+footer {
+    padding: 20px;
+    text-align: left;
+    background-color: aliceblue;
+    color: rgb(129, 124, 124);
+}
+
+.footer-text-col1 li {
+    list-style: none;
+}
+
+.footer-text-col1 a{
+    color:rgb(129, 124, 124);
+    text-decoration: none;
+}
+
+.footer-text-col1 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#java-pic {
+    width: 100px;
+}
+
+#git-pic {
+    width: 100px;
+}
+
+#code-pic {
+    height: 100px;
+    width: 100px;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-family: 'Arima';
+}
